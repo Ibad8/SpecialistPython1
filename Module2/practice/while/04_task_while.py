@@ -7,3 +7,12 @@
 # Формат выходных данных: Необходимо вывести сумму чисел написанных на кирпичах.
 
 # TODO: your code here
+n = int(input('enter pyramid level: '))
+s = 0
+while n > 0:
+ #   print('n equals', n)
+    x = n*n
+    s += x
+    n-=1
+ #   print('s equals', s)
+print('result =', s)
