@@ -3,3 +3,11 @@
 # Формат выходных данных: Выведите все числа, требуемые по условию задачи.
 
 # TODO: your code here
+
+a = int(input('enter a: '))
+b = int(input('enter b: '))
+n = a + 1
+while n < b:
+    if n % 2 == 0:
+        print(n)
+    n += 1
