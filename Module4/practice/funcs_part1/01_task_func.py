@@ -2,6 +2,13 @@
 
 def max2(n1, n2):
     # TODO: your code here
+    def max2(n1, n2):
+    max = None
+    if n1 > n2:
+        max = n1
+    elif n2 > n1:
+        max = n2
+    return max
     pass
 
 
