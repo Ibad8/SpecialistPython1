@@ -10,3 +10,11 @@
 # 1234
 
 # TODO: your code here
+
+n = int(input('enter number: '))
+m = 1
+a = '1'
+while n >= m:
+    print(a)
+    m = m + 1
+    a = a + str(m)
